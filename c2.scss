@@ -1,5 +1,8 @@
 body {
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blue-box{
@@ -8,9 +11,9 @@ body {
     width: 25rem;
     height:25rem;
     padding: 2em;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
